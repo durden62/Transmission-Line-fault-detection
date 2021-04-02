@@ -1,0 +1,428 @@
+2021-03-25 13:37:29,844 DEBUG    root            Loaded Command Group: ['gcloud', 'components']
+2021-03-25 13:37:29,848 DEBUG    root            Loaded Command Group: ['gcloud', 'components', 'update']
+2021-03-25 13:37:29,851 DEBUG    root            Running [gcloud.components.update] with arguments: [--allow-no-backup: "True", --quiet: "True", COMPONENT-IDS:6: "['core', 'gcloud-deps', 'bq', 'gcloud', 'gsutil', 'anthoscli']"]
+2021-03-25 13:37:29,856 INFO     ___FILE_ONLY___ Beginning update. This process may take several minutes.
+
+2021-03-25 13:37:41,975 INFO     ___FILE_ONLY___ 
+
+2021-03-25 13:37:41,976 INFO     ___FILE_ONLY___ 
+Your current Cloud SDK version is: 333.0.0
+
+2021-03-25 13:37:41,976 INFO     ___FILE_ONLY___ Installing components from version: 333.0.0
+
+2021-03-25 13:37:41,976 INFO     ___FILE_ONLY___ 
+
+2021-03-25 13:37:42,153 INFO     ___FILE_ONLY___ ┌─────────────────────────────────────────────────────────────────────────────┐
+2021-03-25 13:37:42,153 INFO     ___FILE_ONLY___ 
+
+2021-03-25 13:37:42,153 INFO     ___FILE_ONLY___ │                     These components will be installed.                     │
+2021-03-25 13:37:42,154 INFO     ___FILE_ONLY___ 
+
+2021-03-25 13:37:42,154 INFO     ___FILE_ONLY___ ├─────────────────────────────────────────────────────┬────────────┬──────────┤
+2021-03-25 13:37:42,154 INFO     ___FILE_ONLY___ 
+
+2021-03-25 13:37:42,154 INFO     ___FILE_ONLY___ │                         Name                        │  Version   │   Size   │
+2021-03-25 13:37:42,154 INFO     ___FILE_ONLY___ 
+
+2021-03-25 13:37:42,154 INFO     ___FILE_ONLY___ ├─────────────────────────────────────────────────────┼────────────┼──────────┤
+2021-03-25 13:37:42,154 INFO     ___FILE_ONLY___ 
+
+2021-03-25 13:37:42,154 INFO     ___FILE_ONLY___ │ 
+2021-03-25 13:37:42,154 INFO     ___FILE_ONLY___ BigQuery Command Line Tool                         
+2021-03-25 13:37:42,154 INFO     ___FILE_ONLY___  
+2021-03-25 13:37:42,154 INFO     ___FILE_ONLY___ │ 
+2021-03-25 13:37:42,154 INFO     ___FILE_ONLY___     2.0.65
+2021-03-25 13:37:42,155 INFO     ___FILE_ONLY___  
+2021-03-25 13:37:42,155 INFO     ___FILE_ONLY___ │ 
+2021-03-25 13:37:42,155 INFO     ___FILE_ONLY___  < 1 MiB
+2021-03-25 13:37:42,155 INFO     ___FILE_ONLY___  
+2021-03-25 13:37:42,155 INFO     ___FILE_ONLY___ │
+2021-03-25 13:37:42,155 INFO     ___FILE_ONLY___ 
+
+2021-03-25 13:37:42,155 INFO     ___FILE_ONLY___ │ 
+2021-03-25 13:37:42,155 INFO     ___FILE_ONLY___ BigQuery Command Line Tool (Platform Specific)     
+2021-03-25 13:37:42,155 INFO     ___FILE_ONLY___  
+2021-03-25 13:37:42,155 INFO     ___FILE_ONLY___ │ 
+2021-03-25 13:37:42,155 INFO     ___FILE_ONLY___     2.0.65
+2021-03-25 13:37:42,155 INFO     ___FILE_ONLY___  
+2021-03-25 13:37:42,155 INFO     ___FILE_ONLY___ │ 
+2021-03-25 13:37:42,156 INFO     ___FILE_ONLY___  < 1 MiB
+2021-03-25 13:37:42,156 INFO     ___FILE_ONLY___  
+2021-03-25 13:37:42,156 INFO     ___FILE_ONLY___ │
+2021-03-25 13:37:42,156 INFO     ___FILE_ONLY___ 
+
+2021-03-25 13:37:42,156 INFO     ___FILE_ONLY___ │ 
+2021-03-25 13:37:42,156 INFO     ___FILE_ONLY___ Cloud SDK Core Libraries (Platform Specific)       
+2021-03-25 13:37:42,156 INFO     ___FILE_ONLY___  
+2021-03-25 13:37:42,156 INFO     ___FILE_ONLY___ │ 
+2021-03-25 13:37:42,156 INFO     ___FILE_ONLY___ 2021.03.12
+2021-03-25 13:37:42,156 INFO     ___FILE_ONLY___  
+2021-03-25 13:37:42,156 INFO     ___FILE_ONLY___ │ 
+2021-03-25 13:37:42,156 INFO     ___FILE_ONLY___  < 1 MiB
+2021-03-25 13:37:42,156 INFO     ___FILE_ONLY___  
+2021-03-25 13:37:42,156 INFO     ___FILE_ONLY___ │
+2021-03-25 13:37:42,157 INFO     ___FILE_ONLY___ 
+
+2021-03-25 13:37:42,157 INFO     ___FILE_ONLY___ │ 
+2021-03-25 13:37:42,157 INFO     ___FILE_ONLY___ Cloud Storage Command Line Tool                    
+2021-03-25 13:37:42,157 INFO     ___FILE_ONLY___  
+2021-03-25 13:37:42,157 INFO     ___FILE_ONLY___ │ 
+2021-03-25 13:37:42,157 INFO     ___FILE_ONLY___       4.60
+2021-03-25 13:37:42,157 INFO     ___FILE_ONLY___  
+2021-03-25 13:37:42,157 INFO     ___FILE_ONLY___ │ 
+2021-03-25 13:37:42,157 INFO     ___FILE_ONLY___  3.9 MiB
+2021-03-25 13:37:42,157 INFO     ___FILE_ONLY___  
+2021-03-25 13:37:42,157 INFO     ___FILE_ONLY___ │
+2021-03-25 13:37:42,157 INFO     ___FILE_ONLY___ 
+
+2021-03-25 13:37:42,157 INFO     ___FILE_ONLY___ │ 
+2021-03-25 13:37:42,158 INFO     ___FILE_ONLY___ Cloud Storage Command Line Tool (Platform Specific)
+2021-03-25 13:37:42,158 INFO     ___FILE_ONLY___  
+2021-03-25 13:37:42,158 INFO     ___FILE_ONLY___ │ 
+2021-03-25 13:37:42,158 INFO     ___FILE_ONLY___       4.59
+2021-03-25 13:37:42,158 INFO     ___FILE_ONLY___  
+2021-03-25 13:37:42,158 INFO     ___FILE_ONLY___ │ 
+2021-03-25 13:37:42,158 INFO     ___FILE_ONLY___  < 1 MiB
+2021-03-25 13:37:42,158 INFO     ___FILE_ONLY___  
+2021-03-25 13:37:42,158 INFO     ___FILE_ONLY___ │
+2021-03-25 13:37:42,158 INFO     ___FILE_ONLY___ 
+
+2021-03-25 13:37:42,158 INFO     ___FILE_ONLY___ │ 
+2021-03-25 13:37:42,158 INFO     ___FILE_ONLY___ anthoscli                                          
+2021-03-25 13:37:42,158 INFO     ___FILE_ONLY___  
+2021-03-25 13:37:42,158 INFO     ___FILE_ONLY___ │ 
+2021-03-25 13:37:42,159 INFO     ___FILE_ONLY___     0.2.16
+2021-03-25 13:37:42,159 INFO     ___FILE_ONLY___  
+2021-03-25 13:37:42,159 INFO     ___FILE_ONLY___ │ 
+2021-03-25 13:37:42,159 INFO     ___FILE_ONLY___ 47.0 MiB
+2021-03-25 13:37:42,159 INFO     ___FILE_ONLY___  
+2021-03-25 13:37:42,159 INFO     ___FILE_ONLY___ │
+2021-03-25 13:37:42,159 INFO     ___FILE_ONLY___ 
+
+2021-03-25 13:37:42,159 INFO     ___FILE_ONLY___ │ 
+2021-03-25 13:37:42,159 INFO     ___FILE_ONLY___ gcloud cli dependencies                            
+2021-03-25 13:37:42,159 INFO     ___FILE_ONLY___  
+2021-03-25 13:37:42,159 INFO     ___FILE_ONLY___ │ 
+2021-03-25 13:37:42,159 INFO     ___FILE_ONLY___ 2020.06.12
+2021-03-25 13:37:42,159 INFO     ___FILE_ONLY___  
+2021-03-25 13:37:42,159 INFO     ___FILE_ONLY___ │ 
+2021-03-25 13:37:42,160 INFO     ___FILE_ONLY___  < 1 MiB
+2021-03-25 13:37:42,160 INFO     ___FILE_ONLY___  
+2021-03-25 13:37:42,160 INFO     ___FILE_ONLY___ │
+2021-03-25 13:37:42,160 INFO     ___FILE_ONLY___ 
+
+2021-03-25 13:37:42,160 INFO     ___FILE_ONLY___ └─────────────────────────────────────────────────────┴────────────┴──────────┘
+2021-03-25 13:37:42,160 INFO     ___FILE_ONLY___ 
+
+2021-03-25 13:37:42,160 INFO     ___FILE_ONLY___ 
+
+2021-03-25 13:37:42,252 INFO     ___FILE_ONLY___ For the latest full release notes, please visit:
+  https://cloud.google.com/sdk/release_notes
+
+
+2021-03-25 13:37:42,257 INFO     ___FILE_ONLY___ ╔════════════════════════════════════════════════════════════╗
+
+2021-03-25 13:37:42,257 INFO     ___FILE_ONLY___ ╠═ Creating update staging area                             ═╣
+
+2021-03-25 13:37:42,258 INFO     ___FILE_ONLY___ ╚
+2021-03-25 13:37:42,258 INFO     ___FILE_ONLY___ ══════
+2021-03-25 13:37:42,258 INFO     ___FILE_ONLY___ ══════
+2021-03-25 13:37:42,258 INFO     ___FILE_ONLY___ ══════
+2021-03-25 13:37:42,513 INFO     ___FILE_ONLY___ ═
+2021-03-25 13:37:42,561 INFO     ___FILE_ONLY___ ═
+2021-03-25 13:37:42,618 INFO     ___FILE_ONLY___ ═
+2021-03-25 13:37:42,659 INFO     ___FILE_ONLY___ ═
+2021-03-25 13:37:42,707 INFO     ___FILE_ONLY___ ═
+2021-03-25 13:37:42,753 INFO     ___FILE_ONLY___ ═
+2021-03-25 13:37:42,810 INFO     ___FILE_ONLY___ ═
+2021-03-25 13:37:42,872 INFO     ___FILE_ONLY___ ═
+2021-03-25 13:37:42,924 INFO     ___FILE_ONLY___ ═
+2021-03-25 13:37:42,963 INFO     ___FILE_ONLY___ ═
+2021-03-25 13:37:43,001 INFO     ___FILE_ONLY___ ═
+2021-03-25 13:37:43,040 INFO     ___FILE_ONLY___ ═
+2021-03-25 13:37:43,081 INFO     ___FILE_ONLY___ ═
+2021-03-25 13:37:43,118 INFO     ___FILE_ONLY___ ═
+2021-03-25 13:37:43,156 INFO     ___FILE_ONLY___ ═
+2021-03-25 13:37:43,183 INFO     ___FILE_ONLY___ ═
+2021-03-25 13:37:43,258 INFO     ___FILE_ONLY___ ═
+2021-03-25 13:37:43,293 INFO     ___FILE_ONLY___ ═
+2021-03-25 13:37:43,318 INFO     ___FILE_ONLY___ ═
+2021-03-25 13:37:43,358 INFO     ___FILE_ONLY___ ═
+2021-03-25 13:37:43,379 INFO     ___FILE_ONLY___ ═
+2021-03-25 13:37:43,400 INFO     ___FILE_ONLY___ ═
+2021-03-25 13:37:43,421 INFO     ___FILE_ONLY___ ═
+2021-03-25 13:37:43,445 INFO     ___FILE_ONLY___ ═
+2021-03-25 13:37:43,465 INFO     ___FILE_ONLY___ ═
+2021-03-25 13:37:43,602 INFO     ___FILE_ONLY___ ═
+2021-03-25 13:37:43,652 INFO     ___FILE_ONLY___ ═
+2021-03-25 13:37:43,710 INFO     ___FILE_ONLY___ ═
+2021-03-25 13:37:43,828 INFO     ___FILE_ONLY___ ═
+2021-03-25 13:37:43,866 INFO     ___FILE_ONLY___ ═
+2021-03-25 13:37:43,919 INFO     ___FILE_ONLY___ ═
+2021-03-25 13:37:43,962 INFO     ___FILE_ONLY___ ═
+2021-03-25 13:37:44,011 INFO     ___FILE_ONLY___ ═
+2021-03-25 13:37:44,051 INFO     ___FILE_ONLY___ ═
+2021-03-25 13:37:44,093 INFO     ___FILE_ONLY___ ═
+2021-03-25 13:37:44,135 INFO     ___FILE_ONLY___ ═
+2021-03-25 13:37:44,178 INFO     ___FILE_ONLY___ ═
+2021-03-25 13:37:44,226 INFO     ___FILE_ONLY___ ═
+2021-03-25 13:37:44,272 INFO     ___FILE_ONLY___ ═
+2021-03-25 13:37:44,317 INFO     ___FILE_ONLY___ ═
+2021-03-25 13:37:44,371 INFO     ___FILE_ONLY___ ═
+2021-03-25 13:37:44,430 INFO     ___FILE_ONLY___ ═
+2021-03-25 13:37:44,430 INFO     ___FILE_ONLY___ ╝
+
+2021-03-25 13:37:44,504 INFO     ___FILE_ONLY___ ╔════════════════════════════════════════════════════════════╗
+
+2021-03-25 13:37:44,504 INFO     ___FILE_ONLY___ ╠═ Installing: BigQuery Command Line Tool                   ═╣
+
+2021-03-25 13:37:44,504 INFO     ___FILE_ONLY___ ╚
+2021-03-25 13:37:44,586 INFO     ___FILE_ONLY___ ═
+2021-03-25 13:37:44,587 INFO     ___FILE_ONLY___ ═
+2021-03-25 13:37:44,588 INFO     ___FILE_ONLY___ ═
+2021-03-25 13:37:44,588 INFO     ___FILE_ONLY___ ═
+2021-03-25 13:37:44,589 INFO     ___FILE_ONLY___ ═
+2021-03-25 13:37:44,590 INFO     ___FILE_ONLY___ ═
+2021-03-25 13:37:44,590 INFO     ___FILE_ONLY___ ═
+2021-03-25 13:37:44,591 INFO     ___FILE_ONLY___ ═
+2021-03-25 13:37:44,592 INFO     ___FILE_ONLY___ ═
+2021-03-25 13:37:44,592 INFO     ___FILE_ONLY___ ═
+2021-03-25 13:37:44,593 INFO     ___FILE_ONLY___ ═
+2021-03-25 13:37:44,594 INFO     ___FILE_ONLY___ ═
+2021-03-25 13:37:44,594 INFO     ___FILE_ONLY___ ═
+2021-03-25 13:37:44,595 INFO     ___FILE_ONLY___ ═
+2021-03-25 13:37:44,595 INFO     ___FILE_ONLY___ ═
+2021-03-25 13:37:44,596 INFO     ___FILE_ONLY___ ═
+2021-03-25 13:37:44,596 INFO     ___FILE_ONLY___ ═
+2021-03-25 13:37:44,596 INFO     ___FILE_ONLY___ ═
+2021-03-25 13:37:44,597 INFO     ___FILE_ONLY___ ═
+2021-03-25 13:37:44,597 INFO     ___FILE_ONLY___ ═
+2021-03-25 13:37:44,598 INFO     ___FILE_ONLY___ ═
+2021-03-25 13:37:44,598 INFO     ___FILE_ONLY___ ═
+2021-03-25 13:37:44,598 INFO     ___FILE_ONLY___ ═
+2021-03-25 13:37:44,599 INFO     ___FILE_ONLY___ ═
+2021-03-25 13:37:44,599 INFO     ___FILE_ONLY___ ═
+2021-03-25 13:37:44,600 INFO     ___FILE_ONLY___ ═
+2021-03-25 13:37:44,600 INFO     ___FILE_ONLY___ ═
+2021-03-25 13:37:44,600 INFO     ___FILE_ONLY___ ═
+2021-03-25 13:37:44,601 INFO     ___FILE_ONLY___ ═
+2021-03-25 13:37:44,603 INFO     ___FILE_ONLY___ ═
+2021-03-25 13:37:44,656 INFO     ___FILE_ONLY___ ═
+2021-03-25 13:37:44,665 INFO     ___FILE_ONLY___ ═
+2021-03-25 13:37:44,667 INFO     ___FILE_ONLY___ ═
+2021-03-25 13:37:44,671 INFO     ___FILE_ONLY___ ═
+2021-03-25 13:37:44,673 INFO     ___FILE_ONLY___ ═
+2021-03-25 13:37:44,676 INFO     ___FILE_ONLY___ ═
+2021-03-25 13:37:44,679 INFO     ___FILE_ONLY___ ═
+2021-03-25 13:37:44,681 INFO     ___FILE_ONLY___ ═
+2021-03-25 13:37:44,683 INFO     ___FILE_ONLY___ ═
+2021-03-25 13:37:44,686 INFO     ___FILE_ONLY___ ═
+2021-03-25 13:37:44,692 INFO     ___FILE_ONLY___ ═
+2021-03-25 13:37:44,694 INFO     ___FILE_ONLY___ ═
+2021-03-25 13:37:44,697 INFO     ___FILE_ONLY___ ═
+2021-03-25 13:37:44,700 INFO     ___FILE_ONLY___ ═
+2021-03-25 13:37:44,701 INFO     ___FILE_ONLY___ ═
+2021-03-25 13:37:44,703 INFO     ___FILE_ONLY___ ═
+2021-03-25 13:37:44,705 INFO     ___FILE_ONLY___ ═
+2021-03-25 13:37:44,708 INFO     ___FILE_ONLY___ ═
+2021-03-25 13:37:44,710 INFO     ___FILE_ONLY___ ═
+2021-03-25 13:37:44,713 INFO     ___FILE_ONLY___ ═
+2021-03-25 13:37:44,716 INFO     ___FILE_ONLY___ ═
+2021-03-25 13:37:44,718 INFO     ___FILE_ONLY___ ═
+2021-03-25 13:37:44,720 INFO     ___FILE_ONLY___ ═
+2021-03-25 13:37:44,722 INFO     ___FILE_ONLY___ ═
+2021-03-25 13:37:44,725 INFO     ___FILE_ONLY___ ═
+2021-03-25 13:37:44,728 INFO     ___FILE_ONLY___ ═
+2021-03-25 13:37:44,730 INFO     ___FILE_ONLY___ ═
+2021-03-25 13:37:44,732 INFO     ___FILE_ONLY___ ═
+2021-03-25 13:37:44,735 INFO     ___FILE_ONLY___ ═
+2021-03-25 13:37:44,737 INFO     ___FILE_ONLY___ ═
+2021-03-25 13:37:44,737 INFO     ___FILE_ONLY___ ╝
+
+2021-03-25 13:37:44,750 INFO     ___FILE_ONLY___ ╔════════════════════════════════════════════════════════════╗
+
+2021-03-25 13:37:44,751 INFO     ___FILE_ONLY___ ╠═ Installing: BigQuery Command Line Tool (Platform Spec... ═╣
+
+2021-03-25 13:37:44,751 INFO     ___FILE_ONLY___ ╚
+2021-03-25 13:37:44,838 INFO     ___FILE_ONLY___ ══════════════════════════════
+2021-03-25 13:37:44,839 INFO     ___FILE_ONLY___ ══════════════════════════════
+2021-03-25 13:37:44,839 INFO     ___FILE_ONLY___ ╝
+
+2021-03-25 13:37:44,848 INFO     ___FILE_ONLY___ ╔════════════════════════════════════════════════════════════╗
+
+2021-03-25 13:37:44,848 INFO     ___FILE_ONLY___ ╠═ Installing: Cloud SDK Core Libraries (Platform Specific) ═╣
+
+2021-03-25 13:37:44,848 INFO     ___FILE_ONLY___ ╚
+2021-03-25 13:37:44,891 INFO     ___FILE_ONLY___ ══════════════════════════════
+2021-03-25 13:37:44,892 INFO     ___FILE_ONLY___ ═══════════════
+2021-03-25 13:37:44,893 INFO     ___FILE_ONLY___ ═══════════════
+2021-03-25 13:37:44,893 INFO     ___FILE_ONLY___ ╝
+
+2021-03-25 13:37:44,902 INFO     ___FILE_ONLY___ ╔════════════════════════════════════════════════════════════╗
+
+2021-03-25 13:37:44,902 INFO     ___FILE_ONLY___ ╠═ Installing: Cloud Storage Command Line Tool              ═╣
+
+2021-03-25 13:37:44,902 INFO     ___FILE_ONLY___ ╚
+2021-03-25 13:37:44,983 INFO     ___FILE_ONLY___ ═
+2021-03-25 13:37:44,985 INFO     ___FILE_ONLY___ ═
+2021-03-25 13:37:44,986 INFO     ___FILE_ONLY___ ═
+2021-03-25 13:37:44,988 INFO     ___FILE_ONLY___ ═
+2021-03-25 13:37:44,990 INFO     ___FILE_ONLY___ ═
+2021-03-25 13:37:44,991 INFO     ___FILE_ONLY___ ═
+2021-03-25 13:37:44,993 INFO     ___FILE_ONLY___ ═
+2021-03-25 13:37:44,994 INFO     ___FILE_ONLY___ ═
+2021-03-25 13:37:44,996 INFO     ___FILE_ONLY___ ═
+2021-03-25 13:37:44,997 INFO     ___FILE_ONLY___ ═
+2021-03-25 13:37:44,999 INFO     ___FILE_ONLY___ ═
+2021-03-25 13:37:45,000 INFO     ___FILE_ONLY___ ═
+2021-03-25 13:37:45,002 INFO     ___FILE_ONLY___ ═
+2021-03-25 13:37:45,003 INFO     ___FILE_ONLY___ ═
+2021-03-25 13:37:45,005 INFO     ___FILE_ONLY___ ═
+2021-03-25 13:37:45,006 INFO     ___FILE_ONLY___ ═
+2021-03-25 13:37:45,007 INFO     ___FILE_ONLY___ ═
+2021-03-25 13:37:45,007 INFO     ___FILE_ONLY___ ═
+2021-03-25 13:37:45,008 INFO     ___FILE_ONLY___ ═
+2021-03-25 13:37:45,008 INFO     ___FILE_ONLY___ ═
+2021-03-25 13:37:45,009 INFO     ___FILE_ONLY___ ═
+2021-03-25 13:37:45,010 INFO     ___FILE_ONLY___ ═
+2021-03-25 13:37:45,010 INFO     ___FILE_ONLY___ ═
+2021-03-25 13:37:45,011 INFO     ___FILE_ONLY___ ═
+2021-03-25 13:37:45,011 INFO     ___FILE_ONLY___ ═
+2021-03-25 13:37:45,012 INFO     ___FILE_ONLY___ ═
+2021-03-25 13:37:45,012 INFO     ___FILE_ONLY___ ═
+2021-03-25 13:37:45,013 INFO     ___FILE_ONLY___ ═
+2021-03-25 13:37:45,014 INFO     ___FILE_ONLY___ ═
+2021-03-25 13:37:45,015 INFO     ___FILE_ONLY___ ═
+2021-03-25 13:37:45,296 INFO     ___FILE_ONLY___ ═
+2021-03-25 13:37:45,317 INFO     ___FILE_ONLY___ ═
+2021-03-25 13:37:45,340 INFO     ___FILE_ONLY___ ═
+2021-03-25 13:37:45,359 INFO     ___FILE_ONLY___ ═
+2021-03-25 13:37:45,373 INFO     ___FILE_ONLY___ ═
+2021-03-25 13:37:45,385 INFO     ___FILE_ONLY___ ═
+2021-03-25 13:37:45,399 INFO     ___FILE_ONLY___ ═
+2021-03-25 13:37:45,414 INFO     ___FILE_ONLY___ ═
+2021-03-25 13:37:45,426 INFO     ___FILE_ONLY___ ═
+2021-03-25 13:37:45,439 INFO     ___FILE_ONLY___ ═
+2021-03-25 13:37:45,452 INFO     ___FILE_ONLY___ ═
+2021-03-25 13:37:45,466 INFO     ___FILE_ONLY___ ═
+2021-03-25 13:37:45,482 INFO     ___FILE_ONLY___ ═
+2021-03-25 13:37:45,498 INFO     ___FILE_ONLY___ ═
+2021-03-25 13:37:45,516 INFO     ___FILE_ONLY___ ═
+2021-03-25 13:37:45,534 INFO     ___FILE_ONLY___ ═
+2021-03-25 13:37:45,552 INFO     ___FILE_ONLY___ ═
+2021-03-25 13:37:45,572 INFO     ___FILE_ONLY___ ═
+2021-03-25 13:37:45,586 INFO     ___FILE_ONLY___ ═
+2021-03-25 13:37:45,600 INFO     ___FILE_ONLY___ ═
+2021-03-25 13:37:45,616 INFO     ___FILE_ONLY___ ═
+2021-03-25 13:37:45,632 INFO     ___FILE_ONLY___ ═
+2021-03-25 13:37:45,652 INFO     ___FILE_ONLY___ ═
+2021-03-25 13:37:45,667 INFO     ___FILE_ONLY___ ═
+2021-03-25 13:37:45,680 INFO     ___FILE_ONLY___ ═
+2021-03-25 13:37:45,691 INFO     ___FILE_ONLY___ ═
+2021-03-25 13:37:45,705 INFO     ___FILE_ONLY___ ═
+2021-03-25 13:37:45,718 INFO     ___FILE_ONLY___ ═
+2021-03-25 13:37:45,737 INFO     ___FILE_ONLY___ ═
+2021-03-25 13:37:45,750 INFO     ___FILE_ONLY___ ═
+2021-03-25 13:37:45,750 INFO     ___FILE_ONLY___ ╝
+
+2021-03-25 13:37:45,799 INFO     ___FILE_ONLY___ ╔════════════════════════════════════════════════════════════╗
+
+2021-03-25 13:37:45,799 INFO     ___FILE_ONLY___ ╠═ Installing: Cloud Storage Command Line Tool (Platform... ═╣
+
+2021-03-25 13:37:45,799 INFO     ___FILE_ONLY___ ╚
+2021-03-25 13:37:45,875 INFO     ___FILE_ONLY___ ══════════════════════════════
+2021-03-25 13:37:45,876 INFO     ___FILE_ONLY___ ══════════════════════════════
+2021-03-25 13:37:45,876 INFO     ___FILE_ONLY___ ╝
+
+2021-03-25 13:37:45,885 INFO     ___FILE_ONLY___ ╔════════════════════════════════════════════════════════════╗
+
+2021-03-25 13:37:45,885 INFO     ___FILE_ONLY___ ╠═ Installing: Default set of gcloud commands               ═╣
+
+2021-03-25 13:37:45,886 INFO     ___FILE_ONLY___ ╚
+2021-03-25 13:37:45,890 INFO     ___FILE_ONLY___ ════════════════════════════════════════════════════════════
+2021-03-25 13:37:45,890 INFO     ___FILE_ONLY___ ╝
+
+2021-03-25 13:37:45,895 INFO     ___FILE_ONLY___ ╔════════════════════════════════════════════════════════════╗
+
+2021-03-25 13:37:45,895 INFO     ___FILE_ONLY___ ╠═ Installing: anthoscli                                    ═╣
+
+2021-03-25 13:37:45,895 INFO     ___FILE_ONLY___ ╚
+2021-03-25 13:37:45,899 INFO     ___FILE_ONLY___ ════════════════════════════════════════════════════════════
+2021-03-25 13:37:45,900 INFO     ___FILE_ONLY___ ╝
+
+2021-03-25 13:37:45,904 INFO     ___FILE_ONLY___ ╔════════════════════════════════════════════════════════════╗
+
+2021-03-25 13:37:45,904 INFO     ___FILE_ONLY___ ╠═ Installing: anthoscli                                    ═╣
+
+2021-03-25 13:37:45,904 INFO     ___FILE_ONLY___ ╚
+2021-03-25 13:37:45,999 INFO     ___FILE_ONLY___ ═
+2021-03-25 13:37:46,009 INFO     ___FILE_ONLY___ ═
+2021-03-25 13:37:46,016 INFO     ___FILE_ONLY___ ═
+2021-03-25 13:37:46,024 INFO     ___FILE_ONLY___ ═
+2021-03-25 13:37:46,031 INFO     ___FILE_ONLY___ ═
+2021-03-25 13:37:46,038 INFO     ___FILE_ONLY___ ═
+2021-03-25 13:37:46,046 INFO     ___FILE_ONLY___ ═
+2021-03-25 13:37:46,053 INFO     ___FILE_ONLY___ ═
+2021-03-25 13:37:46,060 INFO     ___FILE_ONLY___ ═
+2021-03-25 13:37:46,068 INFO     ___FILE_ONLY___ ═
+2021-03-25 13:37:46,075 INFO     ___FILE_ONLY___ ═
+2021-03-25 13:37:46,082 INFO     ___FILE_ONLY___ ═
+2021-03-25 13:37:46,089 INFO     ___FILE_ONLY___ ═
+2021-03-25 13:37:46,096 INFO     ___FILE_ONLY___ ═
+2021-03-25 13:37:46,104 INFO     ___FILE_ONLY___ ═
+2021-03-25 13:37:46,111 INFO     ___FILE_ONLY___ ═
+2021-03-25 13:37:46,118 INFO     ___FILE_ONLY___ ═
+2021-03-25 13:37:46,126 INFO     ___FILE_ONLY___ ═
+2021-03-25 13:37:46,133 INFO     ___FILE_ONLY___ ═
+2021-03-25 13:37:46,141 INFO     ___FILE_ONLY___ ═
+2021-03-25 13:37:46,148 INFO     ___FILE_ONLY___ ═
+2021-03-25 13:37:46,156 INFO     ___FILE_ONLY___ ═
+2021-03-25 13:37:46,163 INFO     ___FILE_ONLY___ ═
+2021-03-25 13:37:46,170 INFO     ___FILE_ONLY___ ═
+2021-03-25 13:37:46,178 INFO     ___FILE_ONLY___ ═
+2021-03-25 13:37:46,185 INFO     ___FILE_ONLY___ ═
+2021-03-25 13:37:46,193 INFO     ___FILE_ONLY___ ═
+2021-03-25 13:37:46,200 INFO     ___FILE_ONLY___ ═
+2021-03-25 13:37:46,207 INFO     ___FILE_ONLY___ ═
+2021-03-25 13:37:46,214 INFO     ___FILE_ONLY___ ═
+2021-03-25 13:37:48,028 INFO     ___FILE_ONLY___ ══════════
+2021-03-25 13:37:48,033 INFO     ___FILE_ONLY___ ═════════
+2021-03-25 13:37:48,057 INFO     ___FILE_ONLY___ ═══════════
+2021-03-25 13:37:48,058 INFO     ___FILE_ONLY___ ╝
+
+2021-03-25 13:37:48,074 INFO     ___FILE_ONLY___ ╔════════════════════════════════════════════════════════════╗
+
+2021-03-25 13:37:48,075 INFO     ___FILE_ONLY___ ╠═ Installing: gcloud cli dependencies                      ═╣
+
+2021-03-25 13:37:48,075 INFO     ___FILE_ONLY___ ╚
+2021-03-25 13:37:48,152 INFO     ___FILE_ONLY___ ══════════════════════════════
+2021-03-25 13:37:48,153 INFO     ___FILE_ONLY___ ══════
+2021-03-25 13:37:48,153 INFO     ___FILE_ONLY___ ══════
+2021-03-25 13:37:48,154 INFO     ___FILE_ONLY___ ══════
+2021-03-25 13:37:48,154 INFO     ___FILE_ONLY___ ══════
+2021-03-25 13:37:48,154 INFO     ___FILE_ONLY___ ══════
+2021-03-25 13:37:48,154 INFO     ___FILE_ONLY___ ╝
+
+2021-03-25 13:37:48,164 INFO     ___FILE_ONLY___ ╔════════════════════════════════════════════════════════════╗
+
+2021-03-25 13:37:48,164 INFO     ___FILE_ONLY___ ╠═ Creating backup and activating new installation          ═╣
+
+2021-03-25 13:37:48,164 INFO     ___FILE_ONLY___ ╚
+2021-03-25 13:37:48,164 DEBUG    root            Attempting to move directory [/tools/google-cloud-sdk] to [/tools/google-cloud-sdk.staging/.install/.backup]
+2021-03-25 13:37:48,165 INFO     ___FILE_ONLY___ ══════════════════════════════
+2021-03-25 13:37:48,165 DEBUG    root            Attempting to move directory [/tools/google-cloud-sdk.staging] to [/tools/google-cloud-sdk]
+2021-03-25 13:37:48,165 INFO     ___FILE_ONLY___ ══════════════════════════════
+2021-03-25 13:37:48,165 INFO     ___FILE_ONLY___ ╝
+
+2021-03-25 13:37:48,169 DEBUG    root            Updating notification cache...
+2021-03-25 13:37:48,170 INFO     ___FILE_ONLY___ 
+
+2021-03-25 13:37:48,174 INFO     ___FILE_ONLY___ Performing post processing steps...
+2021-03-25 13:37:48,175 DEBUG    root            Executing command: ['python3', '-S', '/tools/google-cloud-sdk/lib/gcloud.py', 'components', 'post-process']
+2021-03-25 13:38:03,597 DEBUG    ___FILE_ONLY___ 
+2021-03-25 13:38:03,599 DEBUG    ___FILE_ONLY___ 
+2021-03-25 13:38:03,701 INFO     ___FILE_ONLY___ 
+Update done!
+
+
+2021-03-25 13:38:03,705 INFO     root            Display format: "none"
