@@ -1,4 +1,4 @@
-1.Deep learning YOLO v5 trained model to detect fault and insulators in Transmission lines aerial images clicked from drones.
+1.Deep learning YOLO v5 trained model to detect fault and insulators in Transmission lines aerial images clicked from drones. The model is trained on 1800 high resolution drone images and achieves mAP of 87.6%.
 
 2.REST API in flask to take the input image from user and give the output image with bounding boxes, labels and confidence ratio.
 
